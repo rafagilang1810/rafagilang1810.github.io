@@ -8,12 +8,58 @@
 </head>
 
 <body>
-  <img src="Rafa1234.jpg" alt="Foto Saya" width=280
-  <img src="rafapaskib12.jpg" alt="Foto Saya" width=280
-  <div style="display: inline-flex; align-items: center; vertical-align: top;">
-        <img src="rafapaskib34.jpg" alt="Foto Saya" width="280">
-        <a href="https://www.instagram.com/p/DevGLOkEql-/?obrf=ZDE0YjBrenpuYzc5">FotoProfil</a>
+  <style>
+  .galeri {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px
+  }
+  .galeri img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+    
+  </style>
+  <div class="galeri">
+    <img src="Rafa1234.jpg" alt="Foto1"
+    <img src="rafapaskib12.jpg" alt="Foto2"
+    <img src="rafapaskib34.jpg" alt="Foto3">
+
+    </style>
+      
+    <style>
+      .link-foto {
+        grid-column: 2;
+        grid-row: 2;
+        align-self: stretch;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        background:white;
+        border-radius: 8px;
+        text-align: center;
+        overflow-wrap: anywhere;
+
+      }
+      .link-foto a {
+        color: blue;
+        text-decoration: none;
+        font-size: 14px;
+      }
+    </style>
+    <div class="link-foto">
+      <a href="https://www.instagram.com/p/DevGLOkEql-/?obrf=ZDE0YjBrenpuYzc5"
+      target="_blank">
+        lihat foto
+      </a>
     </div>
+    
+    
+
+  
     
    
   
