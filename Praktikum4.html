@@ -1,17 +1,4 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-</head>
-
-<body>
-  
-</body>
-
-</html><!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
@@ -40,20 +27,38 @@
       margin-top: 15px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     }
+    /* Desain Tombol Kembali ke Menu Utama */
+    .btn-kembali {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn-kembali:hover {
+      background-color: #0056b3;
+    }
   </style>
 </head>
 <body>
 
   <div class="container">
-    <h2>Tugas Pertemuan 1 (SIJA)</h2>
+    <h2>TUGAS PRAKTIKUM 4</h2>
     <h3>Sistem Informasi Jaringan dan Aplikasi</h3>
-    <p>Rafa el kesandung</p>
+    <p>video ini diambil pada saat kegiatan perlombaan, di kejurcab tepatnya di smkn1 panyingkiran</p>
     
-    <video controls>
+    <video controls poster="poster.jpg">
       <source src="rafa.mp4" type="video/mp4">
       Browser kamu tidak mendukung tag video HTML5.
     </video>
-    <p><a href="index.html">kembali ke menu utama</a></p>
+
+    <br>
+  
+    <a href="index.html" class="btn-kembali">Kembali ke Menu Utama</a>
   </div>
 
 </body>
